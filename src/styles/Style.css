@@ -37,3 +37,7 @@ button{
     padding-top: 1rem;
 }
 
+p{
+    color: white;
+    -webkit-text-stroke: 1px black;
+}

@@ -1,0 +1,12 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome{
+    display: inline;
+    background-image: linear-gradient(100deg, red, blue);
+    background-clip: text;
+    color: transparent;
+    font-size: 6rem;
+}

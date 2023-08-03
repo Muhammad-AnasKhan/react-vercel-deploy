@@ -6,6 +6,7 @@ import HeaderNav from './components/Header';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Contact from './components/Contact';
 import About from './components/About';
+import Home from './components/Home';
 
 const App = () => {
   return (
@@ -16,7 +17,8 @@ const App = () => {
           <HeaderNav />
 
           <Routes>
-            <Route path='/' element={
+            <Route path='/' element={<Home />} />
+            <Route path='/tools' element={
               <>
                 <Counter />
                 <LightDarkMode />
