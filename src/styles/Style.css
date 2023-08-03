@@ -1,0 +1,39 @@
+.border-radius{
+    border-radius: 15px;
+}
+.counterBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px dotted rgb(0, 217, 255);
+    padding: 1rem 0rem;
+}
+.lightDarkBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem;
+    border: 5px dotted black;
+    background: rgb(227, 227, 227);
+    flex-direction: column;
+}
+.darkMode{
+    border: 5px dotted white;
+    background:black;
+    color: white;
+
+}
+button{
+    padding: .5rem;
+}
+.bulbBody{
+    border: 5px dotted orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-top: 1rem;
+}
+

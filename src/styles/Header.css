@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+.header-container{
+   
+}
+.header{
+    background: pink;
+    border-radius: 15px;
+    display: flex;
+    padding: 0 1rem;
+    border: 5px dotted rgba(0, 0, 0, 0.477);
+   
+}
+ul{
+    list-style: none;
+    align-self: center;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+a{
+    margin-right: 1.5rem;
+    display: inline;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
